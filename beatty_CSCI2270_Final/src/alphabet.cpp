@@ -103,7 +103,7 @@ void alphabet::addWord(std::string name)
 
             newLetter = addLetter(temp, name[i]);
             temp = newLetter;
-            if(i == name.length() - 1)
+            if(i == name.length() - 2)
             {
                 break;
             }
